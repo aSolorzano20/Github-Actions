@@ -1,0 +1,16 @@
+name: First Worklow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Print gretting
+      run: |
+        echo "Print gretting - First"
+        echo "Print gretting - Second"
+        echo "Heloo World"
+    - name: Print goobbye
+      run: |
+        echo "Print goobbye - First"
+        echo "Print goobbye - Second" 
+        echo "Done - bye!"
