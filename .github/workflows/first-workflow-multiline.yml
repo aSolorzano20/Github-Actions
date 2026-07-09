@@ -1,4 +1,4 @@
-name: First Worklow
+name: First Workflow Multiline
 on: workflow_dispatch
 jobs:
   first-job:
